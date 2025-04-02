@@ -39,3 +39,9 @@ imageContainer.addEventListener('mouseout', (e) => {
 			e.target.style.transition = "transform 0.5s";		
 	}
 });
+
+imageContainer.addEventListener('dblclick', (e) => {
+	if (e.target.classList.contains("ImagesElement")) {
+		e.target.remove();
+	}
+});
