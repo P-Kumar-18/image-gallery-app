@@ -35,3 +35,9 @@ body {
 	overflow: auto;
 	width: 500px;
 }
+.imagesElement:hover {
+	transform: scale(1.3);
+}
+.imagesElement {
+	transition: transform 0.5s ease-in-out;
+}
